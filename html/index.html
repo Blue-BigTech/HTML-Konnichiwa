@@ -32,7 +32,7 @@
 		<div class="container">
 			<nav class="navbar navbar-expand-lg px-0">
 			
-				<a class="navbar-brand" href="/">
+				<a class="navbar-brand" href="./index.html">
 					<img src="../images/logo.svg" alt="logo" />
 				</a>
 			
@@ -468,7 +468,7 @@
 				</div>
 	
 				<div class="qGdLk">
-					<a href="/buytoken" class="btn btn-gr btn-24745">
+					<a href="./how-to-buy.html" class="btn btn-gr btn-24745">
 						Step by Step Buy Guide
 					</a>
 				</div>
@@ -914,74 +914,24 @@
 	<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"
 	integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"
-	integrity="sha512-5erpERW8MxcHDF7Xea9eBQPiRtxbse70pFcaHJuOhdEBQeAxGQjUwgJbuBDWve+xP/u5IoJbKjyJk50qCnMD7A=="
+	integrity="sha512-5erpERW8MxcHDF7Xea9eBQPi.Rtxbse70pFcaHJuOhdEBQeAxGQjUwgJbuBDWve+xP/u5IoJbKjyJk50qCnMD7A=="
 	crossorigin="anonymous" referrerpolicy="no-referrer">
 	</script> -->
 	<!-- 
-		<script src="{% static './lobibox/lib/jquery.1.11.min.js' %}"></script> 
-		 <script src="{% static './lobibox/lib/jquery.1.11.js' %}"></script>  -->
-	<link rel="stylesheet" href="{% static  './lobibox/css/bootstrap.css.map'  %}">
-	<link rel="stylesheet" href="{% static  './lobibox/css/lobibox.css'  %}">
-	<link rel="stylesheet" href="{% static  './lobibox/css/lobibox.min.css'  %}">
-	<link rel="stylesheet" href="{% static  './lobibox/css/lobibox.min.css'  %}">
+	<script src="../lobibox/lib/jquery.1.11.min.js"></script> 
+	<script src="../lobibox/lib/jquery.1.11.js"></script>
+	-->
+	<link rel="stylesheet" href="../lobibox/css/bootstrap.css.map">
+	<link rel="stylesheet" href="../lobibox/css/lobibox.css">
+	<link rel="stylesheet" href="../lobibox/css/lobibox.min.css">
+	<link rel="stylesheet" href="../lobibox/css/lobibox.min.css">
 	
-		<!-- {% if messages %}
-		{% for message in messages %}  
-		<script>
-			
-		 $(document).ready(function(){
-	 
-			
-			 var type = '';
-			 var message ='';
-	 
-			  
-			  type ='{{ message.tags }}';
-			  message = '{{ message}}';
-			 
-			 //alert(type)
-			 //alert(message)
-	 
-			 if (type =='alert-success'){
-			   
-				 var success_text =  message;
-				 Lobibox.notify('success', {
-				 title:'Success',
-				 continueDelayOnInactiveTab: false,
-				 pauseDelayOnHover: true,
-				 sound: false,
-				 position: 'right top',
-				 msg: success_text
-				 });
-			   }
-			  else {
-				 var error_text = message
-				 Lobibox.notify('error', {
-				 title:'Error',
-				 continueDelayOnInactiveTab: false,
-				 pauseDelayOnHover: true,
-				 sound: false,
-				 position: 'right top',
-				 msg: error_text
-				 });
-	 
-			 }
-	 
-		   document.addEventListener("contextmenu", function(e){
-			 e.preventDefault();
-		   }, false)
-		  
-		   });
-	   </script>
-	   {% endfor %}
-	   {% endif %} -->
-	
-	<!-- <script src="{% static './lobibox/js/lobibox.js' %}"></script>  -->
-	<script src="{% static './lobibox/js/lobibox.min.js' %}"></script>
-	<script src="{% static './lobibox/js/messageboxes.min.js' %}"></script>
-	<script src="{% static './lobibox/js/notifications.min.js' %}"></script>
-	<script src="{% static './lobibox/js/notifications.js' %}"></script>
-	<script src="{% static './lobibox/js/messageboxes.js' %}"></script>
+	<!-- <script src="../lobibox/js/lobibox.js"></script>  -->
+	<script src="../lobibox/js/lobibox.min.js"></script>
+	<script src="../lobibox/js/messageboxes.min.js"></script>
+	<script src="../lobibox/js/notifications.min.js"></script>
+	<script src="../lobibox/js/notifications.js"></script>
+	<script src="../lobibox/js/messageboxes.js"></script>
 
 	<!-- <div class="pgLoad">
 		<div class="spinner-border" role="status">
