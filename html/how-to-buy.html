@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% load static %}
+		<title>KONNICHIWA- How To Buy </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		{% block css %}
+		{% include 'css.html' %}
+		{% endblock %}
+	
+		
+	</head>
+
+	<body>
+
+		{% block header %}
+		{% include 'header.html' %}
+		{% endblock %}
+
+
+		<div class="hwbPg">
+			<div class="glowBox glowBox-1">
+				<div class="glowBoxCnt">
+					<div class="glowBoxInMd"></div>
+					<div class="glowBoxInSm"></div>
+				</div>
+			</div>
+			<div class="hwbPgOl">
+				<img src="{% static './images/pic/over-lay-6.png' %}" alt="over-lay-6.png" />
+			</div>
+			<div class="hwbPgOl-2">
+				<img src="{% static './images/pic/over-lay-4.png' %}" alt="over-lay-4" />
+			</div>
+			<div class="container">
+				<div class="secTlTx hwbHd">
+					<h3 class="sbTl">Konnichiwa Token</h3>
+					<h3 class="secTl"><span>How to Buy Konnichiwa Token</span></h3>
+				</div>
+				<div class="hwbBd">
+
+
+					<div class="stpOt">				
+
+						<div class="stpCon">
+							<div class="secTlTx stpConHd">
+								<h4 class="sbTl">STEP 1</h4>
+								<h3 class="secTl"><span>Create a Wallet</span></h3>
+							</div>
+							<div class="stpConBd">
+								<p>Download <a href="#">MetaMask</a> and create your wallet. Keep your key phrase a secret! Under no circumstances should you share it with anyone or a third party!</p>
+							</div>
+							<hr>
+						</div>
+
+						<div class="stpCon">
+							<div class="secTlTx stpConHd">
+								<h4 class="sbTl">STEP 2</h4>
+								<h3 class="secTl"><span>Add Konnichiwa Token to your Wallet</span></h3>
+							</div>
+							<div class="stpConBd">
+								<p>Tap on the MetaMask icon top right of your browser, then click on the networks menu and switch network from “Ethereum Mainnet” to “Binance Smart Chain Mainnet”. </p>
+								<p>While in the ‘Assets’ tab click on the “Add Token” button at the bottom. Copy the contract address of Konnichiwa Token below into MetaMask.</p>
+								<div class="walAdr">
+									0xfEbe8C1eD424Dbyh68qbsrabmki9gabf452mn
+								</div>
+							</div>
+							<br>							
+						</div>
+
+						<div class="stpIg-1">
+							<img src="{% static './images/wallets/step-1.jpg' %}" alt="step-1.jpg" />
+						</div>
+					</div>
+
+					<div class="stpOpt">
+						<div class="stpCon">
+							<div class="secTlTx stpConHd">
+								<h4 class="sbTl">OPTIONAL</h4>
+								<h3 class="secTl"><span>Send BNB To MetaMask</span></h3>
+							</div>
+							<div class="stpConBd">
+								<p>If your wallet is brand new, you will need to send BNB (Binance Coin) to your wallet. After you have added Konnichiwa Token as an asset in your wallet, you must have BNB in your wallet to buy Konnichiwa Token.</p>
+								<p>BNB (Binance Coin) is the native token used in Pancakeswap, and is used to pay transaction fees for buying coins as well as being traded for coins such as Konnichiwa Token.</p>
+								<div class="stpIf">
+									The simplest way to get BNB is to buy it on a centralized exchange, most commonly BNB is bought on Binance.
+								</div>
+								<p>Once you have BNB in a centralized exchange such as Binance. You now must withdraw the BNB to your MetaMask Wallet. </p>
+								<p>First, find your MetaMask wallet address, you can do this by clicking the MetaMask icon on your browser, then after selecting “Binance Smart Chain Mainnet” in the ‘Network’ menu at the top of the app, locate and copy and paste your MetaMask wallet address.</p>
+							</div>
+						</div>
+						<div class="stpIg-2">
+							<img src="{% static './images/wallets/step-2.jpg' %}" alt="step-2.jpg" />
+						</div>
+
+						<div class="row stpRow">
+							<div class="col-sm-12 col-md-12 col-lg stpCol">
+								<p>After copying your MetaMask wallet address, next go to Binance. Locate the ‘Wallet’ drop down menu, Click on ‘Fiat and Spot”, then in the ‘Crypto Balance’ table, locate your BNB. You should find an option next to BNB that says “Withdraw”, click on this.</p>
+								<p>Select the coin you wish to withdraw to your MetaMask wallet, in this case BNB. Then enter your MetaMask wallet address into the “Address” field. From then on you can withdraw BNB into your wallet.</p>
+								<p>(Please note: a mistake in the address field can result in a loss of funds, please double check inputted information is accurate. It is also reccomended to do small test payments to make sure it goes through, before attempting to transfer large funds.) Withdraw BNB on Binance</p>
+							</div>
+							<div class="col-sm-12 col-md-12 col-lg-auto stpCol">
+								<div class="stpIg-3">
+									<img src="{% static './images/wallets/step-3.jpg' %}" alt="step-3.jpg" />
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="stpThr">
+						<div class="row stpRow">
+							<div class="col-sm-12 col-md-12 col-lg stpCol">
+								<div class="secTlTx stpConHd">
+									<h4 class="sbTl">STEP 3</h4>
+									<h3 class="secTl"><span>Swap BNB for Konnichiwa Token</span></h3>
+								</div>
+								<p>Once you have BNB in your MetaMask wallet, go to Pancakeswap and connect your wallet by clicking the “Connect Wallet” button in the top right corner.</p>
+								<p>After doing this, click the ‘Trade’ menu in Pancakeswap’s sidebar, then click ‘Exchange’. When the Exchange page is brought up, click the gear icon and change the “Slippage Tolerance” to 12% to make swapping tokens easier. </p>
+								<p>This means when you swap tokens, if the price changes by up to 12% since you initiated the transaction, the transaction can still process.</p>
+							</div>
+							<div class="col-sm-12 col-md-12 col-lg-auto stpCol">
+								<div class="stpIg-3">
+									<img src="{% static './images/wallets/step-4.jpg' %}" alt="step-4.jpg" />
+								</div>
+							</div>
+						</div>
+
+						<div class="row stpRow">
+							<div class="col-sm-12 col-md-12 col-lg-auto stpCol order-2 order-lg-1">
+								<div class="stpIg-5">
+									<img src="{% static './images/wallets/step-5.jpg' %}" alt="step-5.jpg" />
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-12 col-lg stpCol order-1 order-lg-2">
+								<p>Go back to the exchange page and in the "From" field select BNB and the amount you wish to trade for Konnichiwa Token.</p>
+								<p>In the "To" field, click on "Select a currency", then in the "Search name or paste address" field paste the Konnichiwa Token address to find the token. The Konnichiwa Token address is found below.</p>
+								<div class="walAdr">
+									0xfEbe8C1eD424Dbyh68qbsrabmki9gabf452mn
+								</div>
+								<p>After specifying you want to exchange BNB for Konnichiwa Token, click "swap" and go through the confirmation windows to finish the swap!</p>
+							</div>							
+						</div>
+					</div>
+
+					<div class="stpHm">
+						<a href="/" class="btn btn-18945 btn-gr-2">Return Home</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		
+		{% block footer %}
+		{% include 'footer.html' %}
+		{% endblock %}
+
+		<div class="pgLoad">
+			<div class="spinner-border" role="status">
+			  	<span class="sr-only">Loading...</span>
+			</div>
+		</div>
+
+	</body>
+	
+	{% block script %}
+	{% include 'script.html' %}
+	{% endblock %}
+
+
+
+</html>
